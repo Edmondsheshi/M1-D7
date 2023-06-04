@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card-pinterest{
+    width: 400px;
+    height: 500px;
+    margin: 200px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+.card-pinterest img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+
+}
+.icona-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 255);
+    position: absolute;
+    top: 440px;
+    left: 280px;
+    transform: translateY(100px);
+    transition: 0.8s;
+    transition-timing-function: ease-in;
+    z-index: 2;
+}
+.icona-2 i{
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    color: #fff;
+}
+.icona-3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 440px;
+    left: 340px;
+    transform: translateY(100px);
+    transition: 0.8s;
+    transition-timing-function: ease-in;
+    z-index: 2;
+}
+.icona-3 i{
+    position: absolute;
+    top: 15px;
+    right: 18px;
+}
+
+.icona-1{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 440px;
+    left: 10px;
+    transform: translateY(100px);
+    transition: 0.8s;
+    transition-timing-function: ease-in;
+    z-index: 2;
+}
+.icona-1 span{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    left: 20px;
+}
+
+.icona-4{
+    width: 80px;
+    height: 50px;
+    border-radius: 70px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 15px;
+    left: 310px;
+    transform: translateY(-100px);
+    transition: 0.8s;
+    transition-timing-function: ease-in;
+    z-index: 2;
+}
+.card-pinterest:hover .icona-4 {
+    transform: translateY(0);
+    opacity: 2;
+}
+.icona-4 span{
+    position: absolute;
+    font-size: 25px;
+    top: 10px;
+    left: 15px;
+}
+
+.card-pinterest:hover img{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+.card-pinterest:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.476);
+    
+
+}
+.card-pinterest:hover .icona-1,
+.card-pinterest:hover .icona-2,
+.card-pinterest:hover .icona-3{
+    transform: translateY(0);
+    opacity: 2;
+}
+
